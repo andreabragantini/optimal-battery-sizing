@@ -1,0 +1,20 @@
+# Python cache and venv
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# folders
+results/
+
+# Data (if you want to keep local only)
+# data/
+
+# OS/Editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
+
+# Others
+TASK.md
