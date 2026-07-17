@@ -17,4 +17,6 @@ results/
 .vscode/
 
 # Others
-TASK.md
+docs/TASK.md
+docs/answers_to_provoking_questions.md
+

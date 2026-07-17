@@ -1,5 +1,8 @@
 # Optimal Battery Sizing
 
+This project provides a simple, initial suite of Python tools to solve the problem of first-guess battery energy storage system (BESS) sizing for sites with large solar plants.
+Generally, battery sizing is a complex problem involving economics, uncertainty, and grid integration, rather than just an energy balance. For the sake of simplicity, and to serve as a first-guess design tool, this project focuses exclusively on the energy balance constraints, sizing the battery primarily using demand and solar generation profiles.
+
 This repository provides two complementary classes for battery studies:
 
 - `src.bess_optimizer.Optimizer`: solves for optimal battery power (MW) and energy (MWh).
@@ -104,3 +107,4 @@ Returns hourly dispatch arrays plus fixed capacities and `total_unmet`.
 - `notebooks/02_batch_daily_profiles.ipynb`: batch daily sizing with `Optimizer`
 - `notebooks/03_candidate_design_screening.ipynb`: screen candidate designs from batch outputs
 - `notebooks/04_validate_p80_full_year.ipynb`: fixed-candidate validation with `Simulator`
+FIX THIS======
