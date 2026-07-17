@@ -2,7 +2,15 @@
 Battery Simulator
 Example usage (predifined case study) for testing and demonstration purposes
 """
+import os, sys
+from pathlib import Path
 import numpy as np
+
+# Ensure repository root is on sys.path when running from scripts/.
+repo_root = Path.cwd()
+if str(repo_root) not in sys.path:
+    sys.path.insert(0, str(repo_root))
+
 from src.bess_simulator import Simulator
 
 # Example input data for a 24-hour period
